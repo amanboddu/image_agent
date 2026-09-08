@@ -1,0 +1,6 @@
+# Requires Python 3.12 (3.10-3.13 OK).
+# Python 3.14+ breaks: replicate 1.x uses the pydantic v1 compat shim,
+# which is incompatible with Python 3.14.
+streamlit>=1.38
+replicate>=1.0.0
+python-dotenv>=1.0.1
